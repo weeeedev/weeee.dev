@@ -1,6 +1,6 @@
 ---
 install:
-  - curl -L https://github.com/gohugoio/hugo/releases/download/v0.55.4/hugo_0.55.4_Linux-64bit.deb -o hugo.deb
+  - curl -L https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_extended_0.55.6_Linux-64bit.deb -o hugo.deb
   - sudo dpkg -i hugo.deb
 
 script:
