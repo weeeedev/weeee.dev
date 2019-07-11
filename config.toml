@@ -1,0 +1,65 @@
+baseURL = "https://weeee.dev/"
+DefaultContentLanguage = "en"
+title = "weeee.dev"
+theme = "hello-friend-ng"
+
+disableKinds = ["RSS"]
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  description = "weeee.dev is Ville-Veikko Kovalainen's home page"
+  keywords = "weeee.dev, weeee, homepage, development, programming, devops"
+  images = [""]
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+# Social icons
+[[params.social]]
+name = "twitter"
+url  = "https://twitter.com/weeeedev/"
+
+[[params.social]]
+name = "email"
+url  = "mailto:weeee@iki.fi"
+
+[[params.social]]
+name = "dev.to"
+url = "https://dev.to/weeee"
+
+[[params.social]]
+name = "github"
+url  = "https://github.com/weeeedev/"
+
+[[params.social]]
+name = "gitlab"
+url  = "https://gitlab.com/weeee"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/ville-veikko-kovalainen-3045ab30/"
+
+[languages]
+  [languages.en]
+    title = "Ville-Veikko Kovalainen"
+    subtitle = "weeee.dev"
+    keywords = ""
+    copyright = "Ville-Veikko Kovalainen"
+    readOtherPosts = ""
+    homeSubtitle = "Software Engineer"
+
+    [languages.en.params.logo]
+      logoText = "weeee.dev"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
