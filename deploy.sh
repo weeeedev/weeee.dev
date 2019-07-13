@@ -15,5 +15,5 @@ rsync -av --delete --exclude ".git" public/ deployment
 
 cd deployment
 git add --all
-git commit -m "Built on ${date}, commit ${TRAVIS_COMMIT} by job ${TRAVIS_JOB_NUMBER}" || true
+git commit -m "Built on $(date), commit ${TRAVIS_COMMIT} by job ${TRAVIS_JOB_NUMBER}" || true
 git push
