@@ -7,8 +7,13 @@ script:
   - hugo
 
 deploy:
-  - provider: script
-    script: "/bin/bash ${TRAVIS_BUILD_DIR}/deploy.sh"
+  - provider: pages
+    fqdn: weeee.dev
     skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local_dir: public/
+    repo: weeeedev/weeeedev.github.io
+    target_branch: master
+    keep_history: true
     on:
       branch: master
