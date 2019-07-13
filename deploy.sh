@@ -10,7 +10,7 @@ trap cleanup EXIT
 
 echo "Deploying to GitHub pages"
 
-git clone -b master git@github.com:weeeedev/weeeedev.github.io.git deployment
+git clone -b master https://github.com/weeeedev/weeeedev.github.io.git deployment
 rsync -av --delete --exclude ".git" public/ deployment
 
 cd deployment
